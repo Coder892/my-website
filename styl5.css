@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('WhatsApp\ Image\ 2024-07-30\ at\ 6.51.48\ PM.jpeg');
+}
+
+
+/* Container for recipes */
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+/* Recipe card styling */
+.recipe-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+
+.recipe-card h2 {
+    margin-top: 0;
+}
+
+
+.ingredients-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.ingredients-list li {
+    margin-bottom: 5px;
+}
+
+
+.toggle-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.toggle-button:hover {
+    background-color: #45a049;
+}
+
+
+/* Review container styling */
+.review-container {
+    padding: 20px;
+}
+
+
+.review-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+
+.review-card p {
+    margin: 0;
+}
+
+
+.review-card .rating {
+    font-size: 1.2em;
+    color: #f39c12;
+}
+
+
+.review-card .rating span {
+    color: #f39c12;
+}
+
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .recipe-container {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
