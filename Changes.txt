@@ -1,0 +1,10 @@
+  Align Karna hai sbko 
+  Sabke Icons Aur logo 
+  Add function with JS
+  Background change for every page
+  Recipe, About Us, Courses 
+  Video On home Page*
+  Registration page ayega
+  Home ke nav pr share button
+  Add Footer
+  
